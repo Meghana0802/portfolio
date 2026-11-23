@@ -552,7 +552,7 @@ a { color: inherit; }
 .contact-layout { display: flex; flex-direction: column; justify-content: center; }
 .contact-layout h2 { max-width: 1000px; font-size: clamp(48px, 7vw, 94px); }
 .contact-copy { max-width: 760px; margin: 28px 0 0; color: var(--ink-soft); font-size: 18px; }
-.contact-cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; margin-top: 44px; }
+.contact-cards { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; margin-top: 44px; }
 .contact-cards > * { position: relative; min-height: 135px; display: flex; flex-direction: column; justify-content: space-between; padding: 20px; border: 1px solid var(--line); border-radius: 9px 18px 11px 16px; background: var(--white); text-decoration: none; transition: transform 180ms ease, box-shadow 180ms ease; }
 .contact-cards > :nth-child(2) { transform: rotate(1deg); }
 .contact-cards > :nth-child(3) { transform: rotate(-1deg); }
